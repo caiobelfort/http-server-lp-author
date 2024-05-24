@@ -24,4 +24,3 @@ fn borrow (s: &mut String) {
   *s = buf.to_string();
   println!("From borrow(): {}", s);
 }
-S
